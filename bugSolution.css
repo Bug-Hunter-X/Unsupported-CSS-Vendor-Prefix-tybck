@@ -1,0 +1,8 @@
+/*Corrected CSS (bugSolution.css)*/
+
+.element {
+  transition: opacity 0.3s ease-in-out; /* Removed -webkit- prefix */
+  transform: translateX(0); /* Removed -webkit- prefix */
+}
+
+/* Other styles */
